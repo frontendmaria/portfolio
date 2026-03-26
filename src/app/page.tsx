@@ -1,9 +1,11 @@
 import { Container } from "@/components/layout/Container";
+import { Navbar } from "@/components/layout/Navbar";
 import { Section } from "@/components/layout/Section";
 
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <Section>
         <Container>
           <h1>Hero</h1>
